@@ -1,0 +1,24 @@
+.auth-layout {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #eef6ff,
+        #d9f2e6
+    );
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+.login-bg,
+.register-bg {
+background: linear-gradient(135deg, #DBEAFE 0%, #ECFDF5 100%);
+}
+

@@ -1,0 +1,63 @@
+
+.heatmap-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+    gap: 5px;
+    width: 100%;
+    min-height: 180px;
+}
+
+.heatmap-cell {
+    min-height: 55px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: transform 0.15s ease;
+}
+
+.heatmap-cell:hover {
+    transform: scale(1.05);
+}
+
+.heatmap-normal {
+    background-color: #e9ecef;
+}
+
+.heatmap-low {
+    background-color: #fff3cd;
+}
+
+.heatmap-medium {
+    background-color: #ffc107;
+}
+
+.heatmap-high {
+    background-color: #dc3545;
+}
+
+.heatmap-empty {
+    background-color: #f8f9fa;
+}
+
+.heatmap-value {
+    font-size: 12px;
+}
+
+.heatmap-legend {
+    width: 14px;
+    height: 14px;
+
+    display: inline-block;
+
+    border-radius: 3px;
+}
+
