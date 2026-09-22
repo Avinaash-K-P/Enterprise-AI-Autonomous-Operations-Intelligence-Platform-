@@ -2,8 +2,8 @@
 # Backend
 # ================================
 
-.env
-.venv/
+backend/.env
+backend/.venv/
 
 __pycache__/
 *.py[cod]
